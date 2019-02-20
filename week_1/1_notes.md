@@ -41,16 +41,16 @@ Examples
 - Tom Michael Mitchell (1998) - Well-posed Learning Problem: 
     - A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E
     - Carnegie Melon
-    - Checkers playing example
-    - Experience E - the experience of having the program play tens of thousands of games itself.
-    - Task T - would be the task of playing checkers
-    - Performance measure P - the probability that wins the next game of checkers against some new opponent
+    - Checkers playing example:
+        - Experience E - the experience of having the program play tens of thousands of games itself.
+        - Task T - would be the task of playing checkers
+        - Performance measure P - the probability that wins the next game of checkers against some new opponent
     - Spam example
-    - Task T - would be the task of filtering spam - Classifying emails as spam or not spam
-    - Task E - watching you label emails as spam or not spam
-    - Task P - The number (or fraction) of emails correctly classified as spam/not spam.
+        - Task T - would be the task of filtering spam - Classifying emails as spam or not spam
+        - Task E - watching you label emails as spam or not spam
+        - Task P - The number (or fraction) of emails correctly classified as spam/not spam.
 - The main two types of learning algorithms are:
-    - In general, any machine learning problem can be assignet to one of two broad classifications:
+    - In general, any machine learning problem can be assigned to one of two broad classifications:
         - Supervised learning - we're going to teach the computer how to do something
         - Unsupervised learning - we're going to let it learn by itself
     - Others: Reinforcement learning, recommender systems

@@ -14,13 +14,13 @@
 
 ## Classifacation Example
 - We want to look at medical records and try to predict of a breast cancer as malignant or benign 
-- Дали е Злокачествен по размера на тумора.
-- Classification problem - Discrete valued output (0 or 1) - can be 3, 4, 5
+- Дали е Злокачествен тумора по подаден размер.
+- Classification problem - Discrete valued output (0 or 1) - can be 3, 4, 5 but discrete!
 
 - Age, Tumor Size and malignant or benign
 
 - Всичко това са **Features** - Години, Размер
-    - Outputa-a - malignant or benign - дали е feature или просто output
+    - Output-a - malignant or benign - дали е feature или просто output
     - Може да има още Features - дебелина на буците, еднородност на размера на клетките, еднородност на формите на клетките
 
 - Интернесните алгоритми са тези които могат да се справят с безброи много features
@@ -30,14 +30,14 @@
 - Classification problem - predict a discrete value output
 
 - Имаме магазин с 1000 еднакви стоки. Колко от тях ще се продат в следващите 3 месец 
-    - Това е Regression Problem - имаме output continuous value - 0.65.
+    - Това е Regression Problem - имаме output continuous value - 0.65 = 65%.
 - Програма която проверява дали даден акаунт е хакнат
     - Това е Classification problem - имаме output дискретна стойност - или е хакнат или не е.
 
 - При supervised Learning даваме множество от данни и знаеме какъв бихме искали да бъде изхода. Има връзка между input-а и output-а.
 - Supervised Learning се разделя на Regression и Classification проблеми.
 - При regression проблемите се опитваме да map-нем input променливите към някоя непрекъсната функция.
-- При Classification problem - трябва да мапнем input-а към дадени категориии - discrate variables.
+- При Classification problem - трябва да мапнем input-а към дадени категориии - discrete variables.
 
 Regression
 - По дадена площ на къща да се върне цена на къща е Regression Problem - връща се непрекъсната стойност
