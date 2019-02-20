@@ -19,3 +19,7 @@
 ## Има два вида unsupervised learning
 - clustering - новините, дадени гени
 - non clustering - cocktail party problem algorithm с гласове и музика  
+
+Е - experience - исторически данни за времето
+T - да предрича времето
+P - дали вярно го е предрекло или не
