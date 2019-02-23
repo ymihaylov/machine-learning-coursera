@@ -7,8 +7,9 @@
 - Derivative and partial derivative of function
 - convex function
 - В какви случаи се използва not batch gradient descent
-- 
+
 
 --------------------------------------------
 - Разликата между supervised и unsupervised? - Знаем отговорите и label-ите при supervised - при unsupervised алгоритама сам ги класифицира.
 - Големината на всяка крачка при Gradient descent алфа - константа ли е или за всяка стъпка се определя? - не е, колкото по се приближаваме до глобалния минимум и derivitave се приближава до 0, толкова по малки стъпки правим - алфа остава същата
+- https://www.coursera.org/learn/machine-learning/lecture/aQDta/matrix-vector-multiplication - 8:12 защо се пише 1111. От къде идва? - Защото h(x) = -40 + 0.25x -  -40 няма x за него, а 1
