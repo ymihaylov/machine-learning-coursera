@@ -36,7 +36,7 @@
 - Само square matrices имат inverse matrix
 - Inverse на дадена матрица е такава матрица, че като се умножат двете да се получи identity matrix
 - Матрица само с 0 също няма inverse
-- Матрица, която няма inverse матрица се нарича "singular" или "degenerate"
+- Матрица, която няма invertable матрица се нарича "singular" или "degenerate"
 - *Транспониране*
     - Редовете става колони, а колоните редове
     - flipping 45 degrees
