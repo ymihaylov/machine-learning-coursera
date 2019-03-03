@@ -135,4 +135,27 @@ plot(t, y2)
 axis([0.5 1 -1 1])
 help axis
 
+clf; % clear
+A = magic(5);
+imagesc(A), colorbar, colormap gray;
+% comma chaining functions
 
+% Control statements: for while if statements
+for i=1:10,
+    v(i) = 2^i;
+end;
+
+while i <= 5,
+    v(i) = 100;
+    i = i+1;
+end;
+
+function [y1, y2] = squareAndCubeThisNumber(x)
+y1 = x^2;
+y2 = x^2;
+
+% Cost function
+X = [1 1; 1 2; 1 3]
+y = [1; 2; 3]
+theta = [0; 1]
+costFunctionJ(X, y, theta)
