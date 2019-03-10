@@ -14,7 +14,7 @@ Examples:
 - Using linear regression for classification problem isnt good idea
   
  # Hypothesis representation
-- sigmoid function
+- sigmoid function§
 - Logistic function
 
 # Decision Boundary
